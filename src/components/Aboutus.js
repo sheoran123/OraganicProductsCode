@@ -22,8 +22,8 @@ const Aboutus = () => {
                     <p className="text-xs text-gray-500 font-thin mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, exercitationem.</p>
                     <p className="text-xs text-gray-500 font-thin">Lorem ipsum dolor sit amet.</p>
                     <form className="mt-9">
-                        <input type="text" className="rounded-full bg-gray-300 " placeholder="Enter your email.."/>
-                        <button className="text-sm font-light bg-green-500 px-3 py-1 rounded-full text-white ml-4">Subscribe</button>
+                        <input type="text" className="rounded bg-gray-300 lg:w-80 focus:outline-none" placeholder="Enter your email.."/>
+                        <button className="text-sm font-light hover:bg-green-800 focus:outline-none bg-green-500 px-3 py-1 rounded-full text-white ml-4">Subscribe</button>
                     </form>
                 </div>
             </div>

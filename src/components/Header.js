@@ -7,11 +7,11 @@ const Header = () => {
                     <img src={headerlogo} alt="header Logo" width="10%" className="inline "/>
                     <h3 className="inline md:text-3xl font-bold ml-3 xs:text-lg">organic</h3>
                 </div>
-                <a className="text-gray-500 xs:text-md" href="/">Home</a>
-                <a className="text-gray-500 xs:text-md" href="/">Products</a>
-                <a className="text-gray-500 xs:text-md xs:ml-3" href="/">Blog</a>
-                <a className="text-gray-500 xs:text-md " href="/">About us</a>
-                <a  className="text-gray-500 xs:text-md xs:ml-3" href="/">Contact</a>
+                <a className="text-gray-500 xs:text-md hover:text-green-500" href="/">Home</a>
+                <a className="text-gray-500 xs:text-md hover:text-green-500" href="/">Products</a>
+                <a className="text-gray-500 xs:text-md xs:ml-3 hover:text-green-500" href="/">Blog</a>
+                <a className="text-gray-500 xs:text-md hover:text-green-500" href="/">About us</a>
+                <a  className="text-gray-500 xs:text-md xs:ml-3 hover:text-green-500" href="/">Contact</a>
             </div>
         </header>
     )

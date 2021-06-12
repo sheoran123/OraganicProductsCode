@@ -12,16 +12,16 @@ const Products = () => {
             </div>
             <div className="grid md:grid-cols-4 xs:grid-cols-2 xs:justify-items-center xs:gap-1  py-10 px-10 overflow-hidden">
                 <div className="md:w-40 sm:w-40 xs:w-17 text-center">
-                    <img src={productsBowl} alt="products bowl" />
+                    <img className="hover:bg-green-500" src={productsBowl} alt="products bowl" />
                 </div>
                 <div className="md:w-40 sm:w-40 xs:w-17 text-center">
-                    <img src={productsBowl} alt="products bowl" />
+                    <img className="hover:bg-green-500" src={productsBowl} alt="products bowl" />
                 </div>
                 <div className="md:w-40 sm:w-40 xs:w-17 text-center">
-                    <img src={productsBowl} alt="products bowl" />
+                    <img className="hover:bg-green-500" src={productsBowl} alt="products bowl" />
                 </div>
                 <div className="md:w-40 sm:w-40 xs:w-17 text-center">
-                    <img src={productsBowl} alt="products bowl" />
+                    <img className="hover:bg-green-500" src={productsBowl} alt="products bowl" />
                 </div>
             </div>
         </div>

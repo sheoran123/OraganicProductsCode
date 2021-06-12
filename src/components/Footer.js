@@ -21,14 +21,14 @@ const Footer = () => {
                 </div>
                 <div className="xs:hidden md:block">
                     <h3 className="text-sm font-bold lg:text-white xs:black">Information</h3>
-                    <p className="text-sm font-thin lg:text-gray-300 mt-4 xs:black ">About us</p>
-                    <p className="text-sm font-thin lg:text-gray-300 mt-1 xs:black ">Products</p>
-                    <p className="text-sm font-thin lg:text-gray-300 mt-1 xs:black ">Contacts</p>
-                    <p className="text-sm font-thin lg:text-gray-300 mt-1 xs:black ">Term of services</p>
+                    <p className="text-sm font-thin lg:text-gray-300 mt-4 xs:black hover:text-gray-500">About us</p>
+                    <p className="text-sm font-thin lg:text-gray-300 mt-1 xs:black hover:text-gray-500">Products</p>
+                    <p className="text-sm font-thin lg:text-gray-300 mt-1 xs:black hover:text-gray-500">Contacts</p>
+                    <p className="text-sm font-thin lg:text-gray-300 mt-1 xs:black hover:text-gray-500">Term of services</p>
                 </div>
                 <div className="xs:hidden md:block">
-                    <h3 className="text-sm font-bold lg:text-white xs:black">Follow us</h3>
-                    <div className="mt-4 lg:text-gray-300 xs:black"><FaFacebook className="inline mx-1" /><FaInstagram className="inline mx-1"/><FaLinkedin className="inline mx-1"/><FaTwitter className="inline mx-1"/></div>
+                    <h3 className="text-sm font-bold lg:text-white xs:black ">Follow us</h3>
+                    <div className="mt-4 lg:text-gray-300 xs:black "><FaFacebook className="inline mx-1 hover:text-gray-500" /><FaInstagram className="inline hover:text-gray-500 mx-1"/><FaLinkedin className="inline hover:text-gray-500 mx-1"/><FaTwitter className="inline hover:text-gray-500 mx-1"/></div>
                 </div>
             </div>
         </footer>

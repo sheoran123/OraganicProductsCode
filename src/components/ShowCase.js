@@ -9,7 +9,7 @@ const ShowCase = () => {
                 <li className="text-4xl font-bold mb-3">Nature Organic</li>
                 <li className="text-sm font-thin text-gray-500">Vegetables are the edible part of a plant</li>
                 <li className="text-sm font-thin mb-5 text-gray-500">that is used in cooking or can be eaten now.</li>
-                <li><button className="md:text-sm md:font-medium md:py-2 md:px-4 bg-green-300 cursor-pointer rounded-xl text-white xs:text-xs xs:font-thin xs:py-1 xs:px-1">Explore Now</button></li>
+                <li><button className="md:text-sm md:font-medium md:py-2 md:px-4 bg-green-300 focus:outline-none hover:bg-green-700 cursor-pointer rounded-xl text-white xs:text-xs xs:font-thin xs:py-1 xs:px-1">Explore Now</button></li>
             </ul>
             <div className=" static mt-20">
                 <img src={showcaseFlower} width="30%" alt="ShowCase Flower" className="absolute md:right-60 md:z-10 xs:right-10 xs:top-60 xs:z-10" />

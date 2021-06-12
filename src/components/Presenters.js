@@ -13,7 +13,7 @@ const Presenters = () => {
                 <p className="text-sm md:block xs:hidden font-thin text-gray-500">Lorem ipsum dolor sit amet.</p>
             </div>
             <div className="grid md:grid-cols-5 xs:grid-cols-3">
-                <img className="xs:h-10 md:h-full" width="40%" src={Presenterlogo1} alt="logo1" />
+                <img className="xs:h-10 md:h-full " width="40%" src={Presenterlogo1} alt="logo1" />
                 <img className="xs:h-10 md:h-full" width="50%" src={Presenterlogo3} alt="logo2" />
                 <img className=" xs:h-8 md:h-full" width="70%" src={Presenterlogo2} alt="logo3" />
                 <img className="h-full xs:hidden md:block" width="50%" src={Presenterlogo3} alt="logo4" />
