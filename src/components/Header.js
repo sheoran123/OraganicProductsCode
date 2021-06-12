@@ -2,16 +2,16 @@ import headerlogo from '../img/headerLogo.png'
 const Header = () => {
     return (
         <header className="pt-8 h-20 mb-10 ">
-            <div className="grid grid-cols-10">
-                <div className="col-span-5 overflow-hidden">
-                    <img src={headerlogo} alt="header Logo" width="10%" className="inline"/>
-                    <h3 className="inline text-3xl font-bold ml-3">organic</h3>
+            <div className="grid md:grid-cols-10 xs:grid-cols-3">
+                <div className="md:col-span-5 overflow-hidden xs:col-span-3  xs:mb-3">
+                    <img src={headerlogo} alt="header Logo" width="10%" className="inline "/>
+                    <h3 className="inline md:text-3xl font-bold ml-3 xs:text-lg">organic</h3>
                 </div>
-                <a class="text-gray-500" href="/">Home</a>
-                <a class="text-gray-500" href="/">Products</a>
-                <a class="text-gray-500" href="/">Blog</a>
-                <a class="text-gray-500" href="/">About us</a>
-                <a  class="text-gray-500" href="/">Contact</a>
+                <a className="text-gray-500 xs:text-md" href="/">Home</a>
+                <a className="text-gray-500 xs:text-md" href="/">Products</a>
+                <a className="text-gray-500 xs:text-md xs:ml-3" href="/">Blog</a>
+                <a className="text-gray-500 xs:text-md " href="/">About us</a>
+                <a  className="text-gray-500 xs:text-md xs:ml-3" href="/">Contact</a>
             </div>
         </header>
     )

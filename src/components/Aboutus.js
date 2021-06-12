@@ -1,18 +1,18 @@
 import AbuotusComma from '../img/AboutusComma.png'
 import profilePic from '../img/profilePic.png'
 import sideimage from '../img/sideimage.png'
-
+import {FaStar} from 'react-icons/fa'
 
 const Aboutus = () => {
     return (
-        <div className="h-2/3 static overflow-hidden mt-5">
+        <div className="xs:hidden md:block h-2/3 static overflow-hidden md:mt-5">
             <img width="45%" src={sideimage} alt="" className="overflow-hidden -translate-x-96 absolute transform -rotate-45" />
             <div className="grid  grid-cols-1 ml-60">
                 <div className="grid justify-items-center text-center mb-10">
                     <img src={AbuotusComma}  width="5%" alt="Comma" />
                     <img className="rounded-full mt-4" width="5%" src={profilePic} alt="Profile" />
                     <h1 className="text-lg mt-3 text-gray-800 font-extralight">Jane Doe</h1>
-                    <div>icons</div>
+                    <div className="mb-2" ><FaStar className="inline"/><FaStar className="inline"/><FaStar className="inline"/><FaStar className="inline"/><FaStar className="inline"/></div>
                     <p className="text-xs text-gray-500 font-thin mt-1">Thank you for all the amazing produce and products you deliver every week</p>
                     <p className="text-xs text-gray-500 font-thin">you make my life so easy and you bring goodness in my family eating</p>
                     <p className="text-xs text-gray-500 font-thin">I have been roasting a lot of brussels sproutes and</p>

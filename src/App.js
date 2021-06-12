@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="container box-border m-auto h-screen">
+    <div className="container box-border  m-auto h-screen">
       <Header></Header>
       <ShowCase></ShowCase>
       <Products></Products>

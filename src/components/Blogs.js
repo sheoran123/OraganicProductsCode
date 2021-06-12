@@ -5,7 +5,7 @@ import post3 from '../img/post3.png'
 
 const Blogs = () => {
     return (
-        <div className="h-2/3 grid grid-cols-1 overflow-hidden mb-10">
+        <div className="md:h-2/3 grid grid-cols-1 overflow-hidden md:mb-10 xs:mb-5">
             <div className="grid justify-items-center mb-9">
                 <img src={productsLeaf} alt="Products Leaf" />
                 <h3 className="text-2xl font-light mt-2 mb-2">Read our Blog</h3>
@@ -15,21 +15,21 @@ const Blogs = () => {
             <div className="grid grid-cols-3 text-center">
                 <div className="grid justify-items-center">
                     <img className="rounded-xl" width="70%" src={post1} alt="post1" />
-                    <h4 className="text-xl font-normal text-green-500 mt-5">Blog Post one</h4>
-                    <p className="text-xs text-gray-500 font-thin">Lorem ipsum dolor sit. Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet.</p>
-                    <a href="/" className="text-sm text-gray-500 font-bold">Read More...</a>
+                    <h4 className="xs:text-sm md:text-xl font-normal text-green-500 mt-5">Blog Post one</h4>
+                    <p className="xs:hidden md:block text-xs text-gray-500 font-thin">Lorem ipsum dolor sit. Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet.</p>
+                    <a href="/" className="md:text-sm xs:text-xs text-gray-500 font-bold">Read More...</a>
                 </div>
                 <div className="grid justify-items-center">
                     <img className="rounded-xl" width="70%" src={post2} alt="post2" />
-                    <h4 className="text-xl font-normal text-green-500 mt-5">Blog Post one</h4>
-                    <p className="text-xs text-gray-500 font-thin">Lorem ipsum dolor sit. Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet.</p>
-                    <a href="/" className="text-sm text-gray-500 font-bold">Read More...</a>
+                    <h4 className="xs:text-sm md:text-xl font-normal text-green-500 mt-5">Blog Post one</h4>
+                    <p className="xs:hidden md:block text-xs text-gray-500 font-thin">Lorem ipsum dolor sit. Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet.</p>
+                    <a href="/" className="md:text-sm xs:text-xs text-gray-500 font-bold">Read More...</a>
                 </div>
                 <div className="grid justify-items-center">
                     <img className="rounded-xl" width="70%" src={post3} alt="post3" />
-                    <h4 className="text-xl font-normal text-green-500 mt-5">Blog Post one</h4>
-                    <p className="text-xs text-gray-500 font-thin">Lorem ipsum dolor sit. Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet.</p>
-                    <a href="/" className="text-sm text-gray-500 font-bold">Read More...</a>
+                    <h4 className="xs:text-sm md:text-xl font-normal text-green-500 mt-5">Blog Post one</h4>
+                    <p className="xs:hidden md:block text-xs text-gray-500 font-thin">Lorem ipsum dolor sit. Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet.</p>
+                    <a href="/" className="md:text-sm xs:text-xs text-gray-500 font-bold">Read More...</a>
                 </div>
             </div>
         </div>
