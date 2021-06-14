@@ -7,7 +7,7 @@ import {FaTwitter} from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <footer className="static xs:h-1/2 md:h-10 ">
+        <footer className="static xs:h-1/2 md:h-10 " id="footer">
             <img src={footerBg} width="85%" className="md:absolute md:left-24 z-10 h-60 hidden lg:block " alt="footer"/>
             <div className="grid relative justify-items-center pt-20 z-30 md:grid-cols-3 xs:grid-cols-1">
                 <div>
