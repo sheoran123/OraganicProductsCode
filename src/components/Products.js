@@ -4,7 +4,7 @@ import productsBowl from '../img/productsBowl.png'
 
 const Products = () => {
     return (
-        <div className="h-2/3 grid grid-cols-1 mt-10 sm:mb-10">
+        <div className="h-2/3 grid grid-cols-1 mt-10 sm:mb-10" id="Products">
             <div className="grid justify-items-center text-center mt-5 px-20 overflow-hidden">
                 <img src={productsLeaf} className="" alt="Products Leaf" />
                 <h3 className="md:text-2xl md:font-extralight md:mt-2 xs:text-md xs:font-thin xs:mt-0.5">Welcome to Nature</h3>
