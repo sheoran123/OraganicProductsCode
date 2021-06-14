@@ -5,7 +5,7 @@ import post3 from '../img/post3.png'
 
 const Blogs = () => {
     return (
-        <div className="md:h-2/3 grid grid-cols-1 overflow-hidden md:mb-10 xs:mb-5">
+        <div className="md:h-2/3 grid grid-cols-1 overflow-hidden md:mb-10 xs:mb-5" id="Blogs">
             <div className="grid justify-items-center mb-9">
                 <img src={productsLeaf} alt="Products Leaf" />
                 <h3 className="text-2xl font-light mt-2 mb-2">Read our Blog</h3>
