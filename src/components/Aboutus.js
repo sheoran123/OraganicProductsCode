@@ -5,7 +5,7 @@ import {FaStar} from 'react-icons/fa'
 
 const Aboutus = () => {
     return (
-        <div className="xs:hidden md:block h-2/3 static overflow-hidden md:mt-5">
+        <div className="xs:hidden md:block h-2/3 static overflow-hidden md:mt-5" id="Aboutus">
             <img width="45%" src={sideimage} alt="" className="overflow-hidden -translate-x-96 absolute transform -rotate-45" />
             <div className="grid  grid-cols-1 ml-60">
                 <div className="grid justify-items-center text-center mb-10">
