@@ -3,7 +3,7 @@ import showcaseLogo from '../img/showcaseLogo.png'
 
 const ShowCase = () => {
     return (
-        <div className="h-1/2 grid grid-cols-2 mb-20">
+        <div className="h-1/2 grid grid-cols-2 mb-20" id="Showcase">
             <ul className=" mt-20 ">
                 <li className="text-2xl font-extralight mb-2">Healthy life with</li>
                 <li className="text-4xl font-bold mb-3">Nature Organic</li>
